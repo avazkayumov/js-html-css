@@ -1,0 +1,41 @@
+//Console ga malumot chiqarish turlari
+console.log();
+console.time, console.timeEnd;
+console.table()
+console.error()
+
+
+//MATH kutubxonasidagi funksiyalar
+math.ceil (5.6 -> 6)
+math.sqrt (16 -> 4) ildiz osti
+math.PI
+
+
+//DATA TYPES
+number
+boolein
+string
+undefined
+object
+bigInt
+symbol
+
+
+//String to number => Number
+//Number to string => String
+//Boolein to string or nuber => Boolein 
+
+
+//typeof => malumotni turini olib beradi
+typeof(5) == typeof 5
+
+
+let -> block scope
+var -> functional scope
+function() ichidan ozgaruvchi (var,let) chiqomidi
+
+
+
+GETTER & SETTER:
+getter = access properties (xususiyatlarga kirish)
+setter = change (mutate) them

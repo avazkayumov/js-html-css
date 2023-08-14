@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+.img-container {
+    width: 700px;
+    height: 400px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+</style>
+<body>
+    <div class="img-container">
+        <img id="img" src="" alt="">
+    </div>
+    <script>
+        const img = document.getElementById("img")
+        let i = 1
+        
+        let images = [
+            "https://cdn.pixabay.com/photo/2022/02/15/19/39/panda-7015575_1280.jpg",
+            "https://cdn.pixabay.com/photo/2015/03/28/16/40/lake-696098_1280.jpg",
+            "https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_1280.jpg"
+        ]
+
+
+
+        // img.src = images[0]
+        
+        function changeImage() {
+            img.src = images[i]
+
+            if (i == images.length - 1) {
+                i = 0
+            } else {
+                i++
+            }
+        }
+
+        setInterval(changeImage, 2000)
+    </script>
+</body>
+</html>

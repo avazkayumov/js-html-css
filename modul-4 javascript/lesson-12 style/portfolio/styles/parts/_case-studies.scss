@@ -1,0 +1,105 @@
+.case-studies-section {
+    .container {
+        padding: 80px 110px 80px 110px;
+    }
+    h3 {
+        text-align: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 40px;
+        color: $darkColor;
+        margin-bottom: 10px;
+    }
+    p {
+        text-align: center;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: $paragraphColor;
+    }
+
+    .case-studies-flex-container {
+        margin-top: 60px;
+        .main-card {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 80px;
+
+
+            .card-text {
+                width: 421px;
+
+                h3 {
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: left;
+                    color: $darkColor;
+                }
+                p {
+                    font-family: 'IBM Plex Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.01em;
+                    color: $paragraphColor;
+                    text-align: left;
+                    margin: 10px 0 40px 0
+                }
+                button {
+                    a {
+                        text-decoration: none;
+                        font-family: 'IBM Plex Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: $lightColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card-subtitle-edtech{ 
+    @include mini-btn-style(#D0E6FF, $blue-btn);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card-subtitle-fintech {
+    @include mini-btn-style(#FFF6E9, $orange-btn);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card-subtitle-pharma {
+    @include mini-btn-style(#E0FFF8, $light-green-btn);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fintech-btn {
+    @include btn-style ($orange-btn);
+}
+
+.edtech-btn {
+    @include btn-style($blue-btn);
+}
+
+.pharma-btn {
+    @include btn-style ($light-green-btn);
+}

@@ -1,0 +1,33 @@
+.opportunities {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/pictures/opportunities-img.png);
+    position: relative;
+    
+    h2 {
+        @include font-style (88px, $secondaryColor);
+        width: 980px;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+
+    .first-p {
+        width: 500px;
+        @include font-style (30px, $secondaryColor);
+        line-height: 130%;
+        position: absolute;
+        top: 564px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .second-p {
+        width: 520px;
+        @include font-style (30px, $secondaryColor);
+        line-height: 130%;
+        position: absolute;
+        right: 180px;
+        top: 720px;
+    }
+}

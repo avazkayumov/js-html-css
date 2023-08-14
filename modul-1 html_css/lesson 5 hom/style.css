@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+.explore {
+    background-color: black;
+
+    width: 375px;
+    margin: 100px;
+    padding: 15px 16px;
+}
+
+.explore-heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: white;
+}
+
+.explore-search {
+    width: 343px;
+    height: 48px;
+    padding: 14px 16px;
+    border: none;
+    margin-top: 16px;
+    
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+.main-img {
+    width: 343px;
+    height: 200px;
+    margin: 30px 0;
+
+    border: 1px solid rgba(193, 192, 197, 0.15);
+    border-radius: 12px;
+}
+
+.explore-b {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #fff;
+}
+
+.explore-rooms-1 {
+    display: flex;
+}
+
+.explore-rooms-2 {
+    display: flex;
+}
+
+.livingroom {
+    width: 164px;
+    height: 116px;
+    padding: 20px 16px;
+    margin: 16px 0;
+    margin-right: 16px;
+
+    background: linear-gradient(243.42deg, rgba(254, 79, 115, 0.75) 0%, #FE4F73 100%);
+    border-radius: 12px;
+}
+
+.room-img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.room-b {
+    color: #fff;
+}
+
+.workspace {
+    width: 164px;
+    height: 116px;
+    padding: 20px 16px;
+    margin: 16px 0;
+
+    background: linear-gradient(243.42deg, rgba(69, 153, 209, 0.75) 0%, #468AB8 100%);
+    border-radius: 12px;
+}
+
+.bedroom {
+    width: 164px;
+    height: 116px;
+    padding: 20px 16px;
+    margin: 16px 0;
+    margin-right: 16px;
+
+    background: linear-gradient(243.42deg, rgba(242, 206, 182, 0.75) 0%, #DFAC8B 100%);
+    border-radius: 12px;
+}
+
+.relaxspace {
+    width: 164px;
+    height: 116px;
+    padding: 20px 16px;
+    margin: 16px 0;
+
+    background: linear-gradient(243.42deg, rgba(139, 234, 171, 0.75) 0%, #30C562 100%);
+    border-radius: 12px;
+}

@@ -1,0 +1,60 @@
+.box {
+    width: 81px;
+    height: 83px;
+    background: #0590BC;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.btn-result {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 636px;
+    height: 54px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #0590BC;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-result:active {
+    background: #004053;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 30px;
+}
+
+.delete-box {
+    background-color: #BC0505;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #05BC90;
+}

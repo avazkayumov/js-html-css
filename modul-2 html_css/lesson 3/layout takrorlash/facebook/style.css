@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 107, 107, 0.47);;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* background: rgba(217, 255, 107, 0.47); */
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    width: 300px;
+    height: 100%;
+    /* background: #6B1DA94A; */
+}
+
+.center {
+    width: calc(100% - 600px - 40px);
+    height: 100%;
+    /* background: #6B1DA94A; */
+    overflow-y: auto;
+}
+
+.right {
+    width: 300px;
+    height: 100%;
+    /* background: #6B1DA94A; */
+}
+
+.menu {
+    width: 100%;
+    height: 300px;
+    background-color: #0073DE59;
+}
+
+.shortcuts {
+    width: 100%;
+    height: 200px;
+    background-color: #0073DE59;
+    margin-top: 20px;
+}
+
+.stories, .status, .room, .post {
+    width: 100%;
+    background-color: #0073DE59;
+    margin-bottom: 20px;
+}
+
+.stories {
+    height: 200px;
+}
+
+.status {
+    height: 150px;
+}
+
+.room {
+    height: 80px;
+}
+
+.post {
+    height: 400px;
+}
+
+.birthday, .ad, .contacts {
+    width: 100%;
+    background-color: #0073DE59;
+    margin-bottom: 20px;
+}
+
+.birthday {
+    height: 100px;
+}
+
+.ad {
+    height: 205px;
+}
+
+.contacts {
+    height: 250px;
+}

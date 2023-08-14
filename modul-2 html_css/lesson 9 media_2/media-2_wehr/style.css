@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 242px auto;
+}
+
+aside {
+    background-color:  rgba(250, 250, 250, 1);
+}
+
+header {
+    background-color:  rgba(250, 250, 250, 1);
+    height: 91px;
+}
+
+.content {
+    height: calc(100vh - 91px);
+    padding: 21px 50px 34px 50px;
+    background-color:  rgba(250, 250, 250, 1);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 14px;
+    row-gap: 20px;
+}
+
+.card {
+    background-color: aqua;
+}
+
+.smallest {
+    background-color: blue;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.medium {
+    background-color: blueviolet;
+    grid-column: span 4;
+    grid-row: span 2;
+}
+
+.small {
+    background-color: yellow;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.biggest {
+    background-color: brown;
+    grid-column: span 6;
+    grid-row: span 3;
+}
+
+.big {
+    background-color: coral;
+    grid-column: span 4;
+    grid-row: span 4;
+}
+
+
+/* ASIDE */
+.logo {
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+aside {
+    padding: 20px 0 0 0;
+}
+
+.menu {
+    padding: 0 0 0 30px;
+}
+
+.menu-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #686868;
+    opacity: 0.5;
+    margin-bottom: 24px;
+}
+
+.first-nav {
+    margin-bottom: 45px;
+}
+
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.menu-dashboard {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FF5151;
+
+}
+
+.employee {
+    margin-left: 5px;
+}
+
+
+/* menu text style */
+.menu-style {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #686868;
+}
+/* ASIDE*/
+
+
+/* HEADER */
+header {
+    padding: 23px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding: 10px 16px;
+    background: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 343px;
+    height: 100%;
+}
+
+input p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #B3B3B3;
+}
+
+.header-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.notifications img {
+    margin-right: 25px;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: rgba(22, 30, 84, 1);
+}
+/* HEADER */
+
+/* MAIN */
+
+/* main text style */

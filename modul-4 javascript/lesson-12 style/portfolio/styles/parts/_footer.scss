@@ -1,0 +1,137 @@
+.footer-section {
+    background-color: $darkColor;
+    .container {
+        padding: 80px 110px 80px 110px;
+    }
+
+    .footer-title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        color: $lightColor;
+    }
+    .footer-subtitle {
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: $paragraphColor;
+        margin: 10px 0 40px 0;
+    }
+}
+
+.footer-inputs {
+
+    .input-email {
+        text-align: center;
+        p {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: $lightColor;
+            position: relative;
+            left: -155px;
+            margin-bottom: 5px;
+        }
+        input {
+            padding: 14px 12px;
+            border: none;
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 21px;
+            color: $paragraphColor;
+            width: 350px;
+            height: 40px;
+            background: #F8F8F8;
+            border: 1px solid #D8D8D8;
+            border-radius: 4px;
+            outline: none;
+            margin-bottom: 20px;
+        }
+
+        .mobile {
+            position: relative;
+            left: -151px;
+        }
+    }
+
+    .input-message {
+        text-align: center;
+        p {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: $lightColor;
+            position: relative;
+            left: -147px;
+            margin-bottom: 5px;
+        }
+        .textarea-message    {
+            padding: 14px 12px;
+            border: none;
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 21px;
+            color: $paragraphColor;
+            width: 350px;
+            height: 120px;
+            background: #F8F8F8;
+            border: 1px solid #D8D8D8;
+            border-radius: 4px;
+            outline: none;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+.submit-btn {
+    @include btn-style($green-btn);
+    padding: 16px 141px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #3F8E00;
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.3);
+    border-radius: 4px;
+
+    a {
+        text-decoration: none;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: $lightColor;
+    }
+}
+
+.last-message {
+    background-color: $navColor;
+    padding: 26px 0;
+    p {
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;  
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: $paragraphColor;
+    }
+}

@@ -1,0 +1,12 @@
+.packages {
+    padding: 160px 0;
+
+    .text {
+
+        h2 {
+            @include font-style (40, 700, $greyColor);
+            line-height: 50px;
+        }
+    
+    }
+}

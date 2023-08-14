@@ -1,0 +1,80 @@
+.testimonials-section {
+        background-color: $darkColor;
+    .container {
+        padding: 80px 110px 80px 110px;
+    }
+    .testimonials-title {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        color: $lightColor;
+        margin-bottom: 10px; 
+    }
+    .testimonials-subtitle {
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: $paragraphColor;
+        margin-bottom: 60px;
+    }
+
+    .clients-card {
+        background-color: transparent;
+        width: 500px;
+        padding: 30px;
+        border: 1px solid $paragraphColor;
+        border-radius: 10px;
+
+        .quote-ic {
+            position: relative;
+            top: -41px;
+            left: -16px;
+        }
+
+        .clients-paragraph {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+            color: $paragraphColor;
+            margin-bottom: 30px;
+        }
+
+        .client {
+            display: flex;
+            gap: 19px;
+            align-items: center;
+            .client-name {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $lightColor;
+            }
+        }
+    }
+}
+
+.clients-cards-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 62px;
+}
+
+.clients-cards-bottom {
+    display: flex;
+    justify-content: space-between;
+}

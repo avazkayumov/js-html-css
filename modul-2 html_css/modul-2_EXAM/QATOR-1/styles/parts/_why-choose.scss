@@ -1,0 +1,27 @@
+.why-choose {
+    background-image: url(../assets/images/why-choose_bg.png);
+    background-size: cover;
+    background-position: center;
+    // clip-path: polygon(0 0, 100% 0, 99% 100%, 58% 66%, 0 100%, 0% 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 188px 0;
+
+    h3 {
+        width: 317px;
+        @include mainFont (60px, 80px, $secondary);
+    }
+
+    .text-image-container {
+        display: flex;
+        .text {
+            width: 477px;
+            padding: 109px 101px;
+            background-color: $secondary;
+            p {
+                @include secondFont (20px, 32px, $primary);
+            }
+        }
+    }
+}

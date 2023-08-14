@@ -1,0 +1,17 @@
+@mixin mainFont ($size, $height, $color) {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+
+@mixin secondFont ($size, $height, $color)  {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}

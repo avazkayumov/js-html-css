@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 39px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 69px;
+}
+
+header .buttons {
+    margin-left: auto;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header .links {
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+header .buttons .paid {
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+header .buttons .paid:hover {
+    background-color: #04AA6D;
+}
+
+header .buttons .paid a:hover {
+    color: #FFFFFF;
+}
+
+header .buttons .log-in {
+    background: #04AA6D;
+    border-radius: 15px;
+    padding: 6px 25px;
+    margin-right: 23px;
+    transition: 0.3s;
+}
+
+header .buttons .log-in:hover {
+    background-color: #282A35;
+}
+
+header .buttons .log-in a {
+    color: white;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 44px 0 44px;
+}
+
+.html {
+    width: 100%;
+    height: 439px;
+    background: #282A35;
+    padding: 0 44px 0 60px;
+}
+
+.html .text {
+    text-align: center;
+}
+
+.html .text h2 {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 123px;
+    color: #FFFFFF;
+}
+.html .text p {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0px 0 25px;
+}
+
+.text .btn {
+    display: block;
+    margin: 25px auto;
+
+}
+
+
+
+.btn-green {
+    background: #04AA6D;
+    border-radius: 20px;
+    padding: 10px 45px;
+
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-white {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 12px 37px;
+
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #000000;
+    border: none;
+}
+
+.btn-dark {
+    background: #282A35;
+    border-radius: 20px;
+
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border: none;
+}
+
+.code * {
+    display: block;
+}
+
+.code {
+    background: #E7E9EB;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 27px 12px 17px 12px;
+}
+
+.code img {
+    margin: 23px 0 19px 0;
+    transition: 0.3s;
+}
+
+.code img:hover {
+    transform: scale(1.2    );
+}
+
+.code b {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.css {
+    width: 100%;
+    height: 333px;
+    background: #D9EEE1;
+    padding: 66px 44px 66px 114px;
+}
+
+.css .text {
+    text-align: center;
+}
+
+.css .text h2 {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 123px;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.java {
+    width: 100%;
+    height: 412px;
+}
+
+.java {
+    width: 100%;
+    background: #FFF4A3;
+    padding: 57px 43px 66px 58px;
+}
+
+.java .text {
+    text-align: center;
+}
+
+.java .text h2 {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 123px;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.java .text p {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.java .text .btn-java {
+    background: #04AA6D;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    padding: 8px 26px 11px 27px;
+}
+
+.btn-java-gark {
+    background: #282A35;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    padding: 9px 17px 12px 17px;
+}
+
+.php-jquery {
+    background: #282A35;
+    display: flex;
+    justify-content: space-around;
+    padding: 82px 0 94px 0;
+}
+
+.php  {
+    background: #FFC0C7;
+    border-radius: 10px;
+    width: 505px;
+    height: 269px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.php h2 {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 92px;
+
+    color: #000000;
+}
+
+.php p {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 4px 0 32px 0;
+}
+
+.jquery  {
+    background: #FFF4A3;
+    border-radius: 10px;
+    width: 505px;
+    height: 269px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jquery h2 {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 92px;
+
+    color: #000000;
+}
+
+.jquery p {
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 15px 0 21px 0;
+}
+
+

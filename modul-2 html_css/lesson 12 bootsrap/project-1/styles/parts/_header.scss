@@ -1,0 +1,50 @@
+.header {
+    background-color: #B9EAA8;
+    width: 100%;
+    min-height: 100vh;
+
+    .nav-link {
+        @include font-style(14px, 700, $greyColor);
+        line-height: 24px;
+        margin-left: 83px;
+    }
+
+    .btn-primary {
+        background-color: $primaryColor;
+    }
+
+    .btn-outline-primary {
+        border: none;
+        margin-right: 45px;
+    }
+
+    .text-img-container {
+
+        .text-container {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+            h2 {
+                @include font-style(58px, 700, $greyColor)
+            }
+            a {
+                text-decoration: none;
+                @include font-style(20px, 400, black);
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+                color: $primaryColor;
+            }
+        }
+
+        .boy {
+            height: 85vh;
+            position: absolute;
+            right: 0;
+        }
+    }
+}

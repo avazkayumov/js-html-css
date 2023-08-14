@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "./settings/variables";
+@import "./settings/mixins";
+
+@import "./parts/header";
+@import "./parts/about";
+@import "./parts/why-choose";
+@import "./parts/pineapple-land";
+@import "./parts/gallery";

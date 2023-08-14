@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.person {
+    width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.hand-container {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+
+    border: 4px solid #3ED797;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hand {
+    position: relative;
+    width: 58px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.person-hand-container {
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
+.hand:hover {
+    animation-name: wave;
+    animation-duration: 0.5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes wave {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+}
+
+.name {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 120px;
+    text-align: center;
+    color: white;
+}
+
+.job {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.social-networks {
+    display: inline-block;
+
+    margin: 20px 0 32px 0;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-networks img {
+    margin: 0 16px;
+}
+
+.btn-download {
+    width: 500px;
+    display: block;
+    margin: auto;
+
+    background: #00C6BA;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 25px;
+    padding: 15px 0;
+}

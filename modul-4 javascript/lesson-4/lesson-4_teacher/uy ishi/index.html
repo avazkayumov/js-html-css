@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input-note" onkeypress="keyListener(event)"> <button onclick="saveNote()">Saqlash</button>
+    
+    <div class="notes-container">
+        
+        <div class="notes">
+            <h2 class="notes-title"> <input checked type="radio" name="web-lang" value="html"> HTML</h2>
+            <ul id="html-notes-list"></ul>
+        </div>
+
+        <div class="notes">
+            <h2 class="notes-title"> <input type="radio" name="web-lang" value="css"> CSS</h2>
+            <ul id="css-notes-list"></ul>
+        </div>
+
+        <div class="notes">
+            <h2 class="notes-title"><input type="radio" name="web-lang" value="js"> JavaScript</h2>
+            <ul id="js-notes-list"></ul>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

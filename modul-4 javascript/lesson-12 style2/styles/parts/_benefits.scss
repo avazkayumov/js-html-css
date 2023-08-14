@@ -1,0 +1,152 @@
+.benefits-section {
+    padding: 90px 0 0 0;
+
+    .benefits__list__img-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .benefits__list-container {
+        width: 471px;
+        h3 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            color: $darkColor;
+
+            margin-bottom: 50px;
+        }
+        
+        .benefits__list {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                color: $darkColor;
+            }
+        }
+        .benefits__list:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.benefits__img-container {
+    position: relative;
+    .avatar-container {
+        padding: 12px 20px;
+        width: 304px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        right: 270px;
+        top: 36px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        h6 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: $darkColor;
+            margin-bottom: 12px;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: $greyColor;
+        }
+        .message-icon-box {
+            padding: 10px;
+            background-color: $mainColor;
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .moneytransfer-container {
+        padding: 22px 25px;
+        background-color: aquamarine;
+        width: 302px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: -14px;
+        right: 254px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: -0.03em;
+            color: $darkColor;
+        }
+    }
+
+    .gallery-icon-box {
+        position: absolute;
+        bottom: 207px;
+        right: 472px;
+    }
+
+    .total-income-container {
+        position: absolute;
+        right: -69px;
+        top: 121px;
+        padding: 13px 12px 14px 12px;
+        width: 138px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: $greyColor;
+            margin-bottom: 9px;
+        }
+        .price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: $darkColor;
+                margin: 0;
+            }
+        }
+    }
+}

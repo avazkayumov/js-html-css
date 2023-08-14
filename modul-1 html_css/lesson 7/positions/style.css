@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+.input-container {
+    width: 200px;
+    height: 40px;
+    position: relative;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.image {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+

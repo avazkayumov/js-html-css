@@ -1,0 +1,6 @@
+1. Dom
+2. Dom properties and methods
+3. Document
+4. Finding HTML Elements
+5. Elements 
+6. InnerHTML

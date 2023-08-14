@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* CONTAIENER 1 */
+
+.container-1 {
+    width: 360px;
+    height: 528px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container-1 .pizza {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.container-1 .pizza:hover {
+    transform: scale(1.2);
+    border-radius: 16px;
+}
+
+.container-1 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.container-1 .title h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    letter-spacing: 0.01em;
+
+    color: #081F32;
+}
+
+.container-1 .icons {
+    display: flex;
+    align-items: center;
+}
+
+.container-1 .fire {
+    background-color: #F8593B;
+    border-radius: 100%;
+    margin-right: 9px;
+    padding: 5px 6px;
+}
+
+.container-1 .wheat {
+    background-color: #FFC22B;
+    border-radius: 100%;
+    padding: 5px 6px;
+}
+
+.container-1-bottom {
+    padding: 24px;
+}
+
+.container-1 .paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    margin-bottom: 24px;
+}
+
+.container-1 .info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    margin-bottom: 41px;
+}
+
+.container-1 .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-1 .price p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+}
+
+.container-1 .price .btn {
+    background: #2ECC71;
+    border-radius: 4px;
+    padding: 9px 28px;
+    border: none;
+    color: white;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+/* CONTAIENER 1 */
+
+
+/* CONTAIENER 2 */
+
+.container-2 {
+    width: 360px;
+    height: 528px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container-2 .pizza {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.container-2 .pizza:hover {
+    transform: scale(1.2);
+    border-radius: 16px;
+}
+
+.container-2 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.container-2 .title h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    letter-spacing: 0.01em;
+
+    color: #081F32;
+}
+
+.container-2 .icons {
+    display: flex;
+    align-items: center;
+}
+
+.container-2 .fire {
+    background-color: #F8593B;
+    border-radius: 100%;
+    margin-right: 9px;
+    padding: 5px 6px;
+}
+
+.container-2 .wheat {
+    background-color: #FFC22B;
+    border-radius: 100%;
+    padding: 5px 6px;
+}
+
+.container-2-bottom {
+    padding: 24px;
+}
+
+.container-2 .paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    margin-bottom: 24px;
+}
+
+.container-2 .info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    margin-bottom: 41px;
+}
+
+.container-2 .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-2 .price p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+}
+
+.container-2 .price .btn {
+    background: #2ECC71;
+    border-radius: 4px;
+    padding: 9px 28px;
+    border: none;
+    color: white;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+/* CONTAIENER 2 */
+
+/* CONTAIENER 3 */
+
+.container-3 {
+    width: 360px;
+    height: 528px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container-3 .pizza {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.container-3 .pizza:hover {
+    transform: scale(1.2);
+    border-radius: 16px;
+}
+
+.container-3 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.container-3 .title h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    letter-spacing: 0.01em;
+
+    color: #081F32;
+}
+
+.container-3 .icons {
+    display: flex;
+    align-items: center;
+}
+
+.container-3 .fire {
+    background-color: #F8593B;
+    border-radius: 100%;
+    margin-right: 9px;
+    padding: 5px 6px;
+}
+
+.container-3 .wheat {
+    background-color: #FFC22B;
+    border-radius: 100%;
+    padding: 5px 6px;
+}
+
+.container-3-bottom {
+    padding: 24px;
+}
+
+.container-3 .paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    margin-bottom: 24px;
+}
+
+.container-3 .info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    margin-bottom: 41px;
+}
+
+.container-3 .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-3 .price p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+}
+
+.container-3 .price .btn {
+    background: #2ECC71;
+    border-radius: 4px;
+    padding: 9px 28px;
+    border: none;
+    color: white;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+
+.container-3 {
+    width: 360px;
+    height: 528px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.container-3 .pizza {
+    width: 100%;
+}
+
+.container-3 .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.container-3 .title h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    letter-spacing: 0.01em;
+
+    color: #081F32;
+}
+
+.container-3 .icons {
+    display: flex;
+    align-items: center;
+}
+
+.container-3 .fire {
+    background-color: #F8593B;
+    border-radius: 100%;
+}
+
+.container-3 .wheat {
+    background-color: #FFC22B;
+    border-radius: 100%;
+}
+
+.container-3-bottom {
+    padding: 24px;
+}
+
+.container-3 .paragraph {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6E798C;
+    margin-bottom: 24px;
+}
+
+.container-3 .info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #A5ADBB;
+    margin-bottom: 41px;
+}
+
+.container-3 .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container-3 .price p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    color: #081F32;
+}
+
+.container-3 .price .btn {
+    background: #2ECC71;
+    border-radius: 4px;
+    padding: 9px 28px;
+    border: none;
+    color: white;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+/* CONTAIENER 3 */
+

@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    position: relative;
+}
+
+.logotip {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+
+.logotip p {
+    position: relative;
+    top: 7px;
+    left: 7px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 109.5%;
+
+    color: #454545;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    left: 446px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 155.5%;
+
+    color: #454545;
+}
+
+.text {
+    position: absolute;
+    left: 148px;
+    width: 447px;
+    top: 220px;
+}
+
+.text-main {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 129%;
+
+    background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-bottom: 24px;
+}
+
+.text-paragraf {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 171.5%;
+
+    color: #454545;
+    margin-bottom: 24px;
+}
+
+.text-btn {
+    width: 200px;
+    height: 63px;
+
+    background: radial-gradient(255.8% 457.4% at 88.45% 24.64%, #C27FCF 0%, #0368FF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 18px;
+    border: none;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 146.5%;
+
+    color: #FFFFFF;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    left: 220px;
+    bottom: 34px;
+}
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 38px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 129%;
+
+    background: linear-gradient(180deg, #1B18F9 0%, #1B18F9 46.35%, #E146AD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.video-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.right-img {
+    position: absolute;
+    right: 0;
+    width: 700px;
+    height: 770px;
+}
+
+.akula {
+    position: absolute;
+    right: 0;
+    top: 154px;
+}
+
+.fish {
+    position: absolute;
+    top: 38px;
+    right: 38px;
+}
+
+.meduza {
+    position: absolute;
+    top: 57px;
+    right: 430px;
+}
+
+.octopus {
+    position: absolute;
+    right: 170px;
+    bottom: 20px;
+} 
+
+.bubbles {
+    position: absolute;
+    top: 303px;
+    left: 850px;
+}
+
+.crab {
+    position: absolute;
+    left: 0;
+    top: 212px;
+}

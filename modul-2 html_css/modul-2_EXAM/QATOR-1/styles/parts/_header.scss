@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    nav {
+        padding: 50px 100px 0;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                @include mainFont (32px, 43px, $primary);
+            }
+            
+            .nav-links {
+                display: flex;
+                gap: 87px;
+
+                li {
+                    list-style: none;
+                    a {
+                        @include secondFont (20px, 27px, #000000);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        
+        .btn {
+            padding: 9px 33px 14px 39px;
+            background-color: $primary;
+            a {
+                @include secondFont (20px, 27px, $secondary);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.header-text-container {
+    width: 786px;
+    background-color: $primary;
+    margin: 157px 0 0 100px;
+    padding: 80px 42px 60px 89px;
+
+    h2 {
+        @include mainFont (64px, 85px, $secondary);
+        margin-bottom: 16px
+    }
+
+    p {
+        @include secondFont (20px, 36px, $secondary);
+    }
+}
+
+.header-bg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}

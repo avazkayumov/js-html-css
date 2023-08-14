@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragraf-1">Paragraf</p>    
+
+    <div id="section" style="background: red">
+        <h1>Sarlavha</h1>
+        <p>Paragraf</p>
+    </div>
+
+    <script>
+        const p = document.getElementById("paragraf-1")
+        const p2 = p.cloneNode(true)
+        const p3 = p.cloneNode(true)
+        
+        const section = document.getElementById("section")
+
+
+        document.body.append(p2)
+        document.body.append(p3)
+        document.body.append(section.cloneNode(true))
+    </script>
+</body>
+</html>

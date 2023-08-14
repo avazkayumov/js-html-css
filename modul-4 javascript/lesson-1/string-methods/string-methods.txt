@@ -1,0 +1,42 @@
+// toLowerCase bu berilgan satrni kichkina harflarga o'giradi
+// toUpperCase bu berilgan satrni kotta harflarga o'giradi
+
+//-------------------------------------------------------------------------
+
+// .charAt(index) = korsatilgan index harfini qaytaradi
+
+//-------------------------------------------------------------------------
+
+// charCodeAt = bu ACII kod jadvalidagi belgilar kodini qaytaradi
+
+//-------------------------------------------------------------------------
+
+// concat = ikki satrni bir biriga qoshadi
+
+//-------------------------------------------------------------------------
+
+// length methodi stringning uzunligin beradi
+
+//-------------------------------------------------------------------------
+
+// padStart - bu korsatilgan elementga satr boshidan korsatilgan belgini koshib beradi
+
+// padEnd - bu korsatilgan elementga satr oxiridan korsatilgan belgini koshib beradi
+
+//----------------------------------------------------------------------------------------
+
+// replace() = bu berilgan satrni boshqa satrga ozgartirish
+
+//-------------------------------------------------------------------------------------
+
+// slice(), substring() methodi ikkita parametr qabul qiladi, birinchi boshlanish indexi ikkinchisi tugash va bizga anashu oralaqdagi stringni qayatardi
+
+//-------------------------------------------------------------------------------------
+
+// split() = berilgan satrni arrayga otkazadi
+
+//-------------------------------------------------------------------------------------
+
+// trim() = sart boshida yoki oxirida bosh probel bosa ochirvoradi
+
+//----------------------------------------------------------------------------

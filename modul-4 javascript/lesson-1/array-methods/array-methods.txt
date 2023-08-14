@@ -1,0 +1,56 @@
+// at() - bu arrayni indexini olib beradi
+
+// concat() - bu bitta arrayni ikkinchi arrayga qoshadi
+
+// ARRAY - bita arrayni yana array ichiga solib beradi
+
+// Array.isArray - arrayligini tekshirish
+
+// .copyWithin() - birinchi argumentga berilgan index orniga, ikkinchi argumentga berilgan array indexini nusxasini qoyadi
+
+// .every(callback) - array ichidigi har bitta element berilgan shartga togri ekanligini tekshiradi va true yoki false qaytaradi 
+
+// .filter(callback) = kiritilgn shartga kora malumotlarni filter qilib oladi, filter javobni array qilib qaytaradi
+
+// .find(callback) = shartda korsatilgan qiymatni bittasini qaytaradi
+
+// .findIndex() = index qaytaradi 
+
+// indexOf = bu arraydagi korsatilgan elementni indexni qaytaradi
+
+// .flat() bu array icida yana array bolsa ularni bitta umumiya array qilib beradigan metod
+var arr1 = [1, 2, [3, 4]];
+arr1.flat();
+[1, 2, 3, 4]
+
+//.forEach(callback) = return qiymat qaytarmidigan shartni bajaruvchi loop methodi
+
+//.join() = array elemenlariga element qoshish
+
+// keys() = bu arrayni key(name) larini qaytaradi
+
+// lastIndexOf() = arraydagi malum bir elementni oxirgisini topadi 
+
+// map(callback) = for ga oxshab elementlarni aylanib chiqsa boladi
+
+// reduce(callback) = arraydigi xar bitta elementlani ikkta argument bilan aylanib chiqish
+
+// reverse() = berilgan arrayni teskari qilib beradi
+
+// arrayga malumot qoshish:
+// .pop = oxiridan ochirish
+// .shift = boshidan ochirish
+// .push = oxiridan qoshish
+// .unshift = boshidan qoshish
+
+// slice() = bu berilgan birinchi argumentda ikkinchi argumentgacha qoldiradi, qolganini ochirvoradi
+
+// some() = arrayni shartiga kora true yoki false qaytaradi, agar bitta true bolsa javob true boladi
+
+// sort(callback) = bu arrayni osish yoki kamayish boyicha sortirovka qiladi
+
+// splice() = arraydan malumot ochirish uchun ishlatamiza
+
+// toString = arrayni string ga otkazish
+
+// toLocaleString = toString bilan bir xil

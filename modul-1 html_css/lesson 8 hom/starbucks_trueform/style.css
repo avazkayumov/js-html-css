@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Prompt', sans-serif;
+}
+
+header {
+    padding: 0 80px;
+    top: 46px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 14px;
+    right: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.text {
+    width: 612px;
+    position: absolute;
+    top: 35%;
+    left: 80px;
+}
+
+.text h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 67px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: capitalize;
+
+    color: #4D4D4D;
+}
+
+.text button {
+    padding: 15px 40px;
+    background: #007B0C;
+    border-radius: 60px;
+    border: none;
+    display: block;
+    margin: 37px auto 0 auto;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    height: calc(100vh - 130px);
+}
+
+.krushka {
+    width: 30%;
+
+    position: absolute;
+    right: 150px;
+    top: 120px;
+}

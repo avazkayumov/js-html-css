@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        border: 2px solid black;
+        padding: 70px;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    input {
+        margin-bottom: 30px;
+        width: 150px;
+        height: 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <label for="usd">USD</label>
+        <input type="number" name="usd" onkeyup="convertValue(event)">
+        
+        <label for="uzs">UZS</label>
+        <input type="text" name="uzs">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

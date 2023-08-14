@@ -1,0 +1,38 @@
+.footer {
+    padding: 80px 98px 75px 104px ;
+    background-color: $primaryColor;
+
+    .menus {
+        display: flex;
+        gap: 90px;
+        margin-bottom: 50px;
+        .menu-1 {
+            .menu-title {
+                margin-bottom: 22px;
+                @include paragraph-title (14px, white);
+                font-weight: 700;
+            }
+            p {
+                margin-bottom: 22px;
+                @include paragraph-title (14px, white);
+                font-weight: 400;
+                cursor: pointer;
+            }
+        } 
+    }
+    .social-medias {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            @include paragraph-title (14px, white);
+            font-weight: 400;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+    }
+} 

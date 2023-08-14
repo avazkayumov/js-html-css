@@ -1,0 +1,13 @@
+1. DOM Events
+
+2. Manipulating CSS Styles
+3. Classlar bilan ishlash
+4. Keypress
+5. DOM Forms
+6. children property
+
+
+1. CreateElement()
+2. InsertElement
+3. CloningElement()
+4. Removingelement()

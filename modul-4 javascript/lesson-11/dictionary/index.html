@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="clear-container">
+            <button class="clear-btn" onclick="clearPage()">Clear</button>
+        </div>
+
+        <div class="definitions-container">
+            <p>Definition</p>
+            <input class="input-definitions" type="text">
+            <button class="definition-btn" onclick="fetchDefinition()">Search</button>
+            <ul class="definition-ul"></ul>
+        </div>
+
+
+        <div class="synonyms-container">
+            <p>Synonym</p>
+            <input class="input-synonyms" type="text">
+            <button class="synonyms-btn" onclick="fetchSynonyms()">Search</button>
+            <ul class="synonyms-ul"></ul>
+        </div>  
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

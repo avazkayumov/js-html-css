@@ -1,0 +1,17 @@
+@import "./settings/reset";
+@import "./settings/variables";
+@import "./settings/mixins";
+
+@import "./parts/header";
+@import "./parts/support";
+@import "./parts/features";
+@import "./parts/benefits";
+@import "./parts/plan";
+
+
+.container {
+    width: 1440px;
+    margin: auto;
+    display: block;
+    padding: 40px 130px 0 130px;
+}

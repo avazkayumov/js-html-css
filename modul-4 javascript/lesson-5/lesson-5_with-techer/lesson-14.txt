@@ -1,0 +1,9 @@
+// setInterval() => har berilgan sekundda malumot chiqadi
+// setTimeout => berilgan sekunddan keyin malumot chiqadi
+// clearTimeout => timeout ni ochirish
+// clearInterval => interval ni ochirish
+
+// localStorage => malumotni brauzerga saqlash
+// setItem => malumotni application ga qoshish
+// getItem => malumotni application dan window ga olish 
+// removeItem => malumotni ochirish

@@ -1,0 +1,12 @@
+1. CreateElement()
+2. InsertElement
+3. CloningElement()
+4. Removingelement()
+
+
+1. SetInterval
+2. ClearInterval
+3. SetTimeout
+4. ClearTimeout
+5. LocalStorage
+6. Date

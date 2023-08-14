@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/header-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 13px 100px 0;
+  position: relative;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header nav .logo-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 20px;
+}
+
+.header nav .logo-side img {
+  width: 70px;
+  height: 70px;
+}
+
+.header nav .logo-side p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.header nav ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav ul li img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.header nav .line {
+  width: 100%;
+  border: 1px solid #D0C7C7;
+  color: #ff0000;
+  position: absolute;
+  top: 74px;
+}
+
+.header .title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+}
+
+.header .title h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 77px;
+  color: #FFFFFF;
+}
+
+.header .title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+
+.header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 22px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .links .link {
+  background-color: #FFFFFFB2;
+  padding: 12px 25px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.header .links .link p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header .orders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .orders .order {
+  padding: 15px 15px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 39px;
+}
+
+.header .orders .order p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header .orders .order .arrow {
+  position: relative;
+  top: 3px;
+}
+
+.header .find-rooms {
+  padding: 18px 56px;
+  background-color: #ECA00D;
+}
+
+.header .find-rooms p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 210px;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFFFFFB2;
+  padding: 15px 70px;
+  min-width: 100%;
+}
+
+.header-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.header-footer div p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.top-deals {
+  padding: 120px 100px;
+}
+
+.top-deals .title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+
+.top-deals .title .top-deals-line {
+  width: 180px;
+  border: 1px solid #ECA00D;
+  -webkit-transform: rotate(0.22deg);
+          transform: rotate(0.22deg);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 5px;
+  margin-bottom: 50px;
+}
+
+.top-deals .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 25px;
+}
+
+.top-deals .cards .card {
+  width: 519px;
+  background: #FFFFFF;
+  border: 1px solid #D3C9C9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.top-deals .cards .card .emoji {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.top-deals .cards .card img {
+  width: 100%;
+}
+
+.top-deals .cards .card .text {
+  padding: 28px 25px;
+}
+
+.top-deals .cards .card .text b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.top-deals .cards .card .text p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.take-tour {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/take-tour-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.take-tour .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.take-tour .content img {
+  width: 500px;
+  height: 320px;
+}
+
+.take-tour .content .text {
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  width: 500px;
+  height: 320px;
+  padding: 20px 25px;
+}
+
+.take-tour .content .text b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 44px;
+  color: #FFE600;
+}
+
+.take-tour .content .text p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.recommended {
+  padding: 120px 59px;
+}
+
+.recommended .title h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+
+.recommended .title .recommended-line {
+  width: 210px;
+  border: 1px solid #ECA00D;
+  -webkit-transform: rotate(0.22deg);
+          transform: rotate(0.22deg);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 5px;
+  margin-bottom: 50px;
+}
+
+.recommended .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (394px)[3];
+      grid-template-columns: repeat(3, 394px);
+  -ms-grid-rows: (438px)[2];
+      grid-template-rows: repeat(2, 438px);
+  gap: 25px;
+}
+
+.recommended .cards .card {
+  background: #FFFFFF;
+  border: 1px solid #D3C9C9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.recommended .cards .card img {
+  width: 100%;
+  height: 219px;
+}
+
+.recommended .cards .card .emoji {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 6px;
+  left: 6px;
+}
+
+.recommended .cards .card .text {
+  padding: 28px 25px;
+}
+
+.recommended .cards .card .text b {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.recommended .cards .card .text p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */

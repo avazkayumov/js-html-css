@@ -1,0 +1,4 @@
+throw() => error chiqarish, throw dan keyin pasdigi kodlar ishlamidi
+
+try-catch() => xatolikni tekshiradi, agar xato bosa pasdigi kodla xam ishlashni davom ettiradi
+

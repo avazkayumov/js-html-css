@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 240px auto;
+}
+
+.left-nav {
+    height: 100%;
+    padding: 24px 24px 0 24px;
+    position: relative;
+}
+
+.nav-top {
+    margin-bottom: 45px;
+}
+
+
+.nav-top ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-top ul li a {
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.home-icon {
+    margin-right: 14.4px;
+}
+
+.search-icon {
+    margin-right: 15px;
+}
+
+.library-icon {
+    margin-right: 16px;
+}
+
+.nav-top ul li span {
+    color: #10B981;
+}
+
+.nav-bottom {
+    margin-bottom: 34px;
+}
+
+.nav-bottom ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-bottom ul li a {
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.plus-icon {
+    margin-right: 14px;
+}
+
+.like-icon {
+    margin-right: 15px;
+}
+
+.premium-title {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.install {
+    position: absolute;
+    bottom: 18px;
+    left: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.install a {
+    text-decoration: none;
+    margin-left: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+main {
+    padding: 22px 27px 0 36px;
+}
+
+header b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #111827;
+}
+
+header .playlist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+header .playlist p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+header .playlist a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B7280;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.albums {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,188px);
+    column-gap: 45px;
+    row-gap: 24px;
+}
+
+.album {
+    padding: 16px;
+}
+
+.album b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111827;
+}
+
+.album p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    margin-top: 4px;
+}
+
+.image {
+    margin-bottom: 5px;
+}
+
+/* HOVER */
+nav ul li a:hover {
+    color: #10B981;
+}
+
+.premium-title:hover {
+    color: #10B981;
+}
+
+.install a:hover {
+    color: #10B981;
+}
+
+.playlist a:hover {
+    color: #10B981;
+}
+
+.album img {
+    transition: 0.3s;
+}
+
+.album img:hover {
+    transform: scale(1.1);
+}
+
+
+

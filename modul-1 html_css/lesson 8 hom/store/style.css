@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url(./assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #E5E5E5;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+}
+
+nav ul a:hover {
+    color: #79BCCF;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #787878;
+
+    transition: 0.5s;
+}
+
+.header-logo {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 80px;
+    top: 35px ;
+}
+
+.logo-title {
+    position: absolute;
+    left: 139px;
+    top: 29px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #5F5F5F;
+}
+
+.korzina {
+    position: absolute;
+    top: 33px;
+    right: 80px;
+}
+
+.container-text {
+    position: relative;
+    width: 656px;
+    left: 80px;
+    top: 150px;
+}
+
+.container-text h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.27em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container-text h2 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 81px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #444444;
+}
+
+.container-text p {
+    width: 529px;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+
+    color: #656565;
+}
+
+.button {
+    position: absolute;
+    top: 310px;
+
+    width: 230px;
+    height: 50px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(121, 188, 207, 0.4);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+
+    transition: 0.5s;
+} 
+
+.button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    letter-spacing: 0.05em;
+
+    color: #79BCCF;
+}
+
+.button:hover {
+    background-color: rgba(121, 188, 207, 0.4);
+    color: white;
+}
+
+.button:hover > a {
+    color: white;
+}
+
+.social-networks {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+.social-networks img {
+    margin: 0 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.facebook-f {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    right: 100px;
+}
+
+.jacket-blue {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    width: 310px;
+    height: 385px;
+}
+
+.dot {
+    position: absolute;
+    top: 470px;
+    right: 150px;
+}
+
+.ellipse-1 {
+    position: absolute;
+    top: 456px;
+    right: 620px;
+    width: 36px;
+    height: 36px;
+}
+
+.ellipse-2 {
+    position: absolute;
+    top: 463px;
+    right: 320px;
+}
+
+.ellipse-3 {
+    position: absolute;
+    top: 464px;
+    right: 127px;
+}
+
+.clothes {
+    position: absolute;
+    bottom: 20px;
+    right: 110px;
+}
+
+.clothes img {
+    margin: 0 24px 0 0;
+}
+
+.small-blue-jacke {
+    position: absolute;
+    bottom: 15px;
+    right: 320px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(152, 196, 228, 0.35);
+    border-radius: 20px;
+
+    width: 260px;
+    height: 85px;
+}
+
+.small-blue-jacke img {
+    position: absolute;
+    left: 0;
+    top: 95%;
+    transform: translateY(-95%);
+}
+
+.small-blue-jacke p {
+    position: relative;
+    left: 120px;
+    top: 0px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.small-blue-jacke p:last-child {
+    font-weight: 400;
+}

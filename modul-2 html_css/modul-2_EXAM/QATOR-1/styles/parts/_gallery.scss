@@ -1,0 +1,26 @@
+.gallery {
+    padding: 232px 100px 126px 100px;
+    background-color: white;
+    
+    .text-container {
+        text-align: center;
+        margin-bottom: 48px;
+        h4 {
+            margin-bottom: 30px;
+            @include mainFont (60px, 80px, $primary);
+        }
+        p {
+            @include secondFont (20px, 36px, #263238);
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+}

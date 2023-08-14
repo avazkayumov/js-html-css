@@ -1,0 +1,41 @@
+.main {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 200px 200px 0 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 98px;
+    position: relative;
+
+    .left-side {
+
+        h2 {
+             @include font-style (56px, $secondaryColor);
+             margin-bottom: 100px;
+        }
+    }
+
+    .right-side {
+
+        p {
+            @include font-style (20px, $secondaryColor);
+            line-height: 150%;
+            margin-bottom: 100px;
+        }
+    }
+
+         .down-side {
+         width: 900px;
+         position: absolute;
+         bottom: -144px;
+         left: 100px;
+         background-color: $primaryColor;
+         padding: 100px 60px;
+
+         p {
+             @include font-style (30px, $secondaryColor);
+             line-height: 130%;
+         }
+   }
+}

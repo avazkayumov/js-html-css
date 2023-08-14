@@ -1,0 +1,13 @@
+@mixin font-style ($fontsize, $color) {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $fontsize;
+    line-height: 100%;
+    color: $color;
+}
+
+@mixin flex ($justify: flex-start) {
+    display: flex;
+    justify-content: $justify;
+}

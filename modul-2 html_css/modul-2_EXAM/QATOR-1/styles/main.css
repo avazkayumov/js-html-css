@@ -1,0 +1,314 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.header nav {
+  padding: 50px 100px 0;
+}
+
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header nav ul p {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #0E204E;
+}
+
+.header nav ul .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 87px;
+}
+
+.header nav ul .nav-links li {
+  list-style: none;
+}
+
+.header nav ul .nav-links li a {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header nav .btn {
+  padding: 9px 33px 14px 39px;
+  background-color: #0E204E;
+}
+
+.header nav .btn a {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-text-container {
+  width: 786px;
+  background-color: #0E204E;
+  margin: 157px 0 0 100px;
+  padding: 80px 42px 60px 89px;
+}
+
+.header-text-container h2 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.header-text-container p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.header-bg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.about {
+  padding: 0 187px 0;
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about h3 {
+  width: 317px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #0E204E;
+}
+
+.about .image-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .image-text-container .text {
+  padding: 134px 58px 134px 60px;
+  background-color: #0E204E;
+  width: 433px;
+}
+
+.about .image-text-container .text p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.why-choose {
+  background-image: url(../assets/images/why-choose_bg.png);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px 188px 0;
+}
+
+.why-choose h3 {
+  width: 317px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+
+.why-choose .text-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why-choose .text-image-container .text {
+  width: 477px;
+  padding: 109px 101px;
+  background-color: #FFFFFF;
+}
+
+.why-choose .text-image-container .text p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0E204E;
+}
+
+.pineapple-land {
+  padding: 250px 167px 0 188px;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.pineapple-land h3 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #0E204E;
+  text-align: center;
+  margin-bottom: 112px;
+}
+
+.pineapple-land .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pineapple-land .flex-container .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 144px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pineapple-land .flex-container .icons img {
+  margin-bottom: 40px;
+}
+
+.pineapple-land .flex-container .icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pineapple-land .flex-container .icons .private img {
+  margin-bottom: 55px;
+}
+
+.pineapple-land .flex-container .icons p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #263238;
+  text-align: center;
+}
+
+.gallery {
+  padding: 232px 100px 126px 100px;
+  background-color: white;
+}
+
+.gallery .text-container {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.gallery .text-container h4 {
+  margin-bottom: 30px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #0E204E;
+}
+
+.gallery .text-container p {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #263238;
+}
+
+.gallery .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.gallery .grid-container img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

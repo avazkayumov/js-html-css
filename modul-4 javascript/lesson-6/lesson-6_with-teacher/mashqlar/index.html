@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Ism" name="name">
+    <input type="text" placeholder="Familya" name="surname">
+    <input type="number" placeholder="Yosh" name="age">
+    <input type="checkbox" name="roziman">
+    <br>
+    <br>
+    <button onclick="save()">Saqlash</button>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <button onclick="renderTable()">Jadvalga chiqarish</button>
+    <br>
+    <br>
+    <table border>
+        <thead>
+            <tr>
+                <th>Ism</th>
+                <th>Familya</th>
+                <th>Yosh</th>
+                <th>Roziman</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>

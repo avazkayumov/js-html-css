@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: -8px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.G_blue {
+    color: blue;
+}
+
+.o_red {
+    color: red;
+}
+
+.o_yellow {
+    color: yellow;
+}
+
+.g_blue {
+    color: blue;
+}
+
+.l_green {
+    color: green;
+}
+
+.e_red {
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 5px 2px rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px dotted blue;
+    width: 545px;
+    height: 90px;
+    margin: auto;
+}
+
+.tex_underline {
+    text-decoration: underline;
+}
+

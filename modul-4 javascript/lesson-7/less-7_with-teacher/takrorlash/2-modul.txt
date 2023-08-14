@@ -1,0 +1,34 @@
+1. Map
+2. Filter
+3. Reduce
+4. Sort
+5. String
+6. String funksiyalar
+7. Eval
+8. Dom
+9. Dom properties and methods
+10. Document
+11. Finding HTML Elements
+12. Elements 
+13. InnerHTML
+14. DOM Events
+15. Manipulating CSS Styles
+16. Classlar bilan ishlash
+17. Keypress
+18. DOM Forms
+19. children property
+20. CreateElement()
+21. InsertElement
+22. CloningElement()
+23. Removingelement()
+24.SetInterval
+25. ClearInterval
+26. SetTimeout
+27. ClearTimeout
+28. LocalStorage, SessionStorage, Cookie
+29. Date
+30. Try catch
+31. Throw
+32. Asynchronous
+33. Promise
+34. async/await

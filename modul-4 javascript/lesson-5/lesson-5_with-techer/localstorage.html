@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="openPrompt()">Prompt</button>
+    <ul id="list"></ul>
+
+    <button onclick="clearStorage()">Clear</button>
+
+    <script>
+        let arr = JSON.parse(localStorage.getItem("array")) ?? []
+        const list = document.getElementById("list")
+
+        const calculations = [
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+            {num1: 1, operator: "+", num2: 6},
+        ]
+
+        render()
+
+        function render() {
+            list.innerHTML = ""
+
+            arr.forEach(function(val) {
+                const li = document.createElement("li")
+                li.textContent = val
+                list.appendChild(li)
+            })
+        }
+
+        function openPrompt() {
+            const input = prompt("Text")
+            arr.push(input)
+            localStorage.setItem("array", JSON.stringify(arr))
+            render()
+        }
+
+        function clearStorage() {
+            localStorage.removeItem("array")
+            arr = []
+            render()
+        }
+
+        // sessionStorage
+    </script>
+</body>
+</html>

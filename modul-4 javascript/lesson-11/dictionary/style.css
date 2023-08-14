@@ -1,0 +1,70 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* background-color: red; */
+    width: 100%;
+}
+
+input {
+    padding: 16px;
+    border: 2px solid rgb(5, 184, 5);
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 14px;
+}
+
+button {
+    padding: 16px;
+    border: 2px solid darkcyan;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.clear-btn {
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 87, 87);
+    color: white;
+    width: 100px;
+    margin: 0;
+
+    position: relative;
+    top: 60px;
+}
+
+.clear-btn:hover {
+    background-color: red;
+}
+
+ul {
+    width: 250px;
+}
+
+.list {
+    font-size: 18px;
+}

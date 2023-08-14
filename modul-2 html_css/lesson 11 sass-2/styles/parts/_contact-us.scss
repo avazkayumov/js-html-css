@@ -1,0 +1,43 @@
+.contact-us {
+    width: 100%;
+    padding: 200px;
+
+    h2 {
+        @include font-style (84px, $primaryColor);
+        margin-bottom: 100px
+    }
+
+    .contact-us-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 98px;
+
+        .left-side {
+    
+            p {
+                @include font-style (28px, $primaryColor);
+                line-height: 130%;
+                margin-bottom: 100px;
+            }
+        }
+
+        .right-side {
+
+            p {
+                @include font-style (28px, $primaryColor);
+                line-height: 130%;
+                margin-bottom: 100px;
+            }
+        }
+
+        .btn {
+            padding: 40px 669px;
+            grid-column: span 2;
+            
+            background-color: $primaryColor;
+            @include font-style (28px, $secondaryColor);
+            text-decoration: none;
+        }
+    }
+
+}

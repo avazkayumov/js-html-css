@@ -1,0 +1,279 @@
+//CALCULATOR
+const num1 = prompt('Birinchi sonni kiriting')
+const num2 = prompt('Ikkinchi sonni kiriting')
+const amal = prompt('Amalni kiriting')
+
+switch (amal) {
+    case '-':
+        console.log (`${num1 - num2}`);
+        break
+
+    case '+':
+        console.log (`${Number(num1) + Number(num2)}`);
+        break
+
+    case '/':
+        console.log (`${num1 / num2}`);
+        break
+    
+    case '*':
+        console.log (`${num1 * num2}`);
+        break
+}
+
+----------------------------------------------------------
+
+//NUMBER TO STRING
+let num = prompt('Uch xonali son kiriting')
+
+let yuzlik = num / 100;
+yuzlik = parseInt(yuzlik)
+
+let onlik = num / 10 
+onlik = parseInt(onlik)
+onlik = onlik % 10
+
+let birlik = num % 10;
+let natija = "" 
+
+switch(yuzlik) {
+    case 1:
+        natija = 'bir yuz';
+        break
+    case 2:
+        natija = 'ikki yuz'
+        break
+    case 3:
+        natija = 'uch yuz';
+        break
+    case 4:
+        natija = 'tort yuz';
+        break
+    case 5:
+        natija = 'besh yuz';
+        break
+    case 6:
+        natija = 'olti yuz';
+        break
+    case 7:
+        natija = 'yetti yuz';
+        break 
+    case 8:
+        natija = 'sakkiz yuz';
+        break  
+    case 9:
+        natija = 'toqqiz yuz';
+        break 
+}
+
+switch(onlik) {
+    case 1:
+        natija += ' on';
+        break
+    case 2:
+        natija += ' yigirma'
+        break
+    case 3:
+        natija += ' ottiz';
+        break
+    case 4:
+        natija += ' qiriq';
+        break
+    case 5:
+        natija += ' ellik';
+        break
+    case 6:
+        natija += ' oltmish';
+        break
+    case 7:
+        natija += ' yetmish';
+        break 
+    case 8:
+        natija += ' sakson';
+        break  
+    case 9:
+        natija += ' toqson';
+        break 
+}
+
+switch(birlik) {
+    case 1:
+        natija += ' bir';
+        break
+    case 2:
+        natija += ' ikki';
+        break
+    case 3:
+        natija += ' uch';
+        break
+    case 4:
+        natija += ' tort';
+        break
+    case 5:
+        natija += ' besh';
+        break
+    case 6:
+        natija += ' olti';
+        break
+    case 7:
+        natija += ' yetti';
+        break 
+    case 8:
+        natija += ' sakkiz';
+        break  
+    case 9:
+        natija += ' toqqiz';
+        break 
+}
+
+if (yuzlik === 0 && onlik === 0 && birlik === 0) {
+    alert('nol')
+}else {
+    alert(natija)
+}
+
+-------------------------------------------------------------------------
+
+//CALCULATOR FUNCTION
+// function calc(num1, num2, operator) {
+
+//     switch (operator) {
+//         case '+':
+//             console.log(Number(num1) + Number(num2));
+//         case '-':
+//             console.log(Number(num1) - Number(num2));
+//         case '*':
+//             console.log(Number(num1) * Number(num2));
+//         case '/':
+//             console.log(Number(num1) / Number(num2));    
+//     }
+// }
+// calc(16,8,'/')
+
+----------------------------------------------------------
+
+//REMOVE NEGATIVE FUNCTION
+// function removeNegative (...nums) {
+//     let answer = [];
+//     for (let num of nums) {
+//         if (num > 0) {
+//             answer.push(num);
+//         }
+//     }
+//     return answer;
+// }
+// console.log(removeNegative(1,2,3,4,-4,-3))
+
+-----------------------------------------------------------
+
+//REVERSE ARRAY
+// function reverseArray (...nums) {
+//     let answer = [];
+//     for (let i = nums.length; i > 0; i--) {
+//         answer.push(i);
+//     }
+//     return answer;
+// }
+// console.log(reverseArray(1,2,3,4,5));
+
+-------------------------------------------------------------
+
+//MAX-NUM
+// function maxNum (nums) {
+//     let max = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] >= max) {
+//         max = nums[i];
+//         }
+//     }
+//     return max;
+// }
+// console.log(maxNum([3,4,101,2,100,4]))
+
+-------------------------------------------------------------
+
+//REMOVESAMETEXT
+// function removeSameLetter(string) {
+//     let result = ""
+
+//     for (let letter of string) {
+//         if (!result.includes(letter)) {
+//             result += letter;
+//         }
+//     }
+//     return result;
+// }
+// const removeSameLetterResult = removeSameLetter("aabbddnnddnn");
+// console.log(removeSameLetterResult)
+======
+// function removeSameLetter(string) {
+//     let result = ""
+
+//     for (let letter of string) {
+//         let isLetterThere = false;
+
+//         for (let i = 0; i <= result.length; i++) {
+//             if (result[i] === letter) {
+//                 isLetterThere = true
+//             }
+//         }
+
+//         if (!isLetterThere) {
+//             result += letter
+//         }
+//     }
+//     return result
+// }
+
+// const removeSameLetterResult = removeSameLetter("abbcddhuuab")
+// console.log(removeSameLetterResult)
+
+--------------------------------------------------------------
+
+//REMOVESTRING
+function removeString(array) {
+    let result = []
+
+    for (let string of array) {
+        if (!isNaN(parseInt(string))) {
+            result.push(parseInt(string))
+        }
+    }
+
+    return result
+}
+
+const removeStringResult = removeString(["1", "ikki", "3", "4", "besh"])
+console.log(removeStringResult)
+
+--------------------------------------------------------------
+
+//INDEX OF MINNUM
+// function minIndex(nums) {
+//     let minNum = Infinity;
+//     for (let num of nums) {
+//         if (num < minNum) {
+//             minNum = num;
+//         }
+//     }
+//     return nums.indexOf(minNum);
+// }
+// const minIndexResult = minIndex([20,34,67,1,7,8]);
+// console.log(minIndexResult)
+
+--------------------------------------------------------------
+
+//CHANGE A to *
+function changeStr (strs) {
+    let result = ""
+    for (let str of strs) {
+        if (str.toLowerCase() === "a") {
+            result += '*'
+        }else {
+            result += str
+        }
+    }
+    return result;
+}
+const changeStrResult = changeStr("Hello, how are you doing today")
+console.log(changeStrResult)

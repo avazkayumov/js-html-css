@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.button {
+    width: 130px;
+    height: 70px;
+    background-color: green;
+    color: white;
+    border: none;
+
+    font-size: 25px;
+
+    animation-name: button_save;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_save {
+    25% {
+        transform: translateX(1000%);
+    }
+
+    50% {
+        transform: translateX(1000%) translateY(500%);
+    }
+
+    75% {
+        transform: translateX(0%) translateY(500%);
+    }
+
+    100% {
+
+    }
+}
+

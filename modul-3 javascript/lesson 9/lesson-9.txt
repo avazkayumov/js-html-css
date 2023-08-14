@@ -1,0 +1,19 @@
+LESSON 9
+1.rest operator
+
+---------------------------------------
+2.default argument: 
+ex: function myMultiplier (num1 = 5, num2 = 10)
+
+---------------------------------------
+3.true and false: true = 1, false = 0
+ex: (Boolein(0) - Boolein(5)) => -1
+
+---------------------------------------
+4.JSON
+JSON.stringify => object to string
+JSON.parse => string to object
+
+---------------------------------------
+5.OBJECT ?
+object ichidigi object da xatolini oldini olish

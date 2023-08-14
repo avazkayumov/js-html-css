@@ -1,0 +1,48 @@
+.popular-finds {
+    padding: 88px;
+}
+
+.popular-finds_grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 32px;
+}
+
+.popular-find {
+    height: 417px;
+    background-color: grey;
+}
+
+.popular-find h4 {
+    font-size: 56px;
+}
+
+.popular-find--mobile {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .popular-finds {
+        padding: 64px;
+    }
+
+    .popular-finds_grid {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 32px;
+    }
+
+    .popular-find--mobile {
+        display: block;
+    }
+}
+ 
+@media (max-width: 650px) {
+    .popular-finds {
+        padding: 24px;
+    }
+
+    .popular-finds_grid {
+        grid-template-columns: 1fr;
+    } 
+}

@@ -1,0 +1,94 @@
+.support-section {
+    background-color: #F9F8FE;
+    .support-container {
+        display: flex;
+        justify-content: space-between;
+        
+
+        .left-side {
+            width: 644px;
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 61px;
+                color: $darkColor;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+                color: $greyColor;
+                margin: 30px 0 73px 0;
+            }
+
+            .stars-container {
+                display: flex;
+                gap: 80px;
+                b {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $darkColor;
+                    margin: 18px 0;
+                }
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: $greyColor;
+                }
+                .stars-full {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center; 
+                }
+                .stars-notfull {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+.right-side {
+    width: 509px;
+    .publishing {
+        display: flex;
+        gap: 21px;
+        margin-bottom: 30px;
+        .publishing-img {
+            background: $lightColor;
+            box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+            padding: 15px;
+            height: 60px;
+        }
+        h4 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 34px;
+            color: $darkColor;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: $greyColor;
+        }
+
+    }
+
+}

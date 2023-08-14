@@ -1,0 +1,30 @@
+.section-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 220px;
+    row-gap: 120px;
+    background-color: #fff;
+    padding: 160px 120px 160px 120px;
+
+    .section-4-text {
+         h3 {
+            @include main-title (54px, $secondaryColor);
+            margin-bottom: 40px
+        }
+         p {
+             @include paragraph-title (14px, #808080);
+             font-weight: 400;
+             margin-bottom: 70px
+         }
+
+         a {
+             @include button (8px);
+             padding: 12px 58px;
+         }
+    }
+
+    img {
+        width: 410px;
+        height: 390px;
+    }
+}

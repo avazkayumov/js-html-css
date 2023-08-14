@@ -1,0 +1,35 @@
+1. body tegi ichida ushubu elementlarni oching, va JavaScript orqali "h3#logo" ichiga "PDP Academy", "h2#title" ichiga "Bizning Darslar", "p#paragraf" ichiga esa "Lorem ..."
+
+getElementById()
+innerText
+
+<div class="header">
+    <h3 id="logo"></h3>
+</div>
+
+<div class="main">
+    <h2 id="title"></h2>
+    <p id="paragraf"></p>
+</div>
+
+2. 
+
+html file: 
+    <body>
+
+        <h2>Alfabet</h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </body>
+
+result: 
+    <body>
+        <p>a</p>
+        <p>b</p>
+        <p>c</p>
+        <p>d</p>
+        <p>f</p>
+    </body>

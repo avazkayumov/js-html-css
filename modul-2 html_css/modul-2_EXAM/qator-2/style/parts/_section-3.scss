@@ -1,0 +1,47 @@
+.section-3 {
+    background-color: #F84646;
+    padding: 68px 232px;
+
+    .section-3-text {
+        text-align: center;
+
+        h3 {
+            @include main-title (40px, white)
+        }
+
+        p {
+            @include paragraph-title (14px, white);
+            font-weight: 400;
+            margin-bottom: 64px;
+        }
+    }
+
+    .section-3-flex {
+        display: flex;
+        justify-content: space-between;
+        p {
+            @include paragraph-title (14px, white);
+            font-weight: 700;
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .logo-istanbul {
+        position: absolute;
+        top: 288px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+    }
+
+    .logo-amazon {
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+    }
+}

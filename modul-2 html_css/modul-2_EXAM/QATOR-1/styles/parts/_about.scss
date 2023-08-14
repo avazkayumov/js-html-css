@@ -1,0 +1,26 @@
+.about {
+    padding: 0 187px 0;
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        width: 317px;
+        @include mainFont (60px, 80px, $primary);
+    }
+
+    .image-text-container {
+        display: flex;
+        .text {
+            padding: 134px 58px 134px 60px;
+            background-color: $primary;
+            width: 433px;
+
+            p {
+                @include secondFont (20px, 32px, $secondary);
+            }
+        }
+    }
+}

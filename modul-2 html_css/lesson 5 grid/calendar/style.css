@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 130px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-calendar {
+    width: 393px;
+    min-height: 367px;
+    background-color: white;
+    padding: 28px 44px 0 44px;
+    border-radius: 9px;
+}
+
+.month {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.week {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 23px;
+}
+
+.week p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(60, 60, 67, 0.6);
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    text-align: center;
+    position: relative;
+    left: -12px;
+}
+
+.day {
+    height: 38px;
+    width: 46px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.day span {
+    color: #808080;
+}
+
+
+
+
+.dark-calendar {
+    width: 393px;
+    min-height: 367px;
+    background-color: rgb(0, 0, 0);
+    padding: 28px 44px 0 44px;
+    border-radius: 9px;
+}
+
+.dark-calendar .month {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #F2F2F2;
+    margin-bottom: 23px;
+}
+
+.dark-calendar .week {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 23px;
+}
+
+.dark-calendar .week p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+.dark-calendar .days {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    text-align: center;
+    position: relative;
+    left: -12px;
+}
+
+.dark-calendar .day {
+    height: 38px;
+    width: 46px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F2F2F2;
+}
+
+.dark-calendar .day span {
+    color: #808080;
+}

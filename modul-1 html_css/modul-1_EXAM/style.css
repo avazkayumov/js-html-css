@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: red;
+}
+
+nav {
+    position: absolute;
+    top: 30px;
+    left: 350px;
+}
+
+nav ul li {
+    margin: 0 30px;
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #969BAB;
+
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #258D1C;
+}
+
+header h3 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #258D1C;
+}
+
+.sumka {
+    position: absolute;
+    top: 0px;
+}
+
+.search {
+    position: absolute;
+    left: 700px;
+    top: 0;
+}
+
+.search-input {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 194px;
+    height: 37px;
+    border: none;
+    padding: 10px;
+    color: #969BAB;
+}
+
+.container-text {
+    position: relative;
+    top: 180px;
+    left: 100px;
+    width: 420px;
+}
+
+.container-text h2 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 54px;
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.container-text p {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #474A57;
+}
+
+.flower1 {
+    background-color: red;
+    width: 200px;
+    height: 220px;
+    background-image: url(./assets/flower-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    position: relative;
+    top: 240px;
+    left: 100px;
+
+    margin-right: 30px;
+}
+
+.flower1 p {
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+}
+
+.flower1-name {
+    position: relative;
+    top: 160px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.flower1-price {
+    font-weight: 800;
+    font-size: 19.4286px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.flower1-like {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+.flower1-korzina {
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+}
+
+
+
+.flower2 {
+    width: 200px;
+    height: 220px;
+    background-image: url(./assets/fllower-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    position: relative;
+    top: 240px;
+    left: 100px;
+
+    margin-right: 30px;
+}
+
+
+.flower2 p {
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+}
+
+.flower2-name {
+    position: relative;
+    top: 160px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.flower2-price {
+    font-weight: 800;
+    font-size: 19.4286px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.flower2-like {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+.flower2-korzina {
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+}
+
+
+.flower3 {
+    width: 200px;
+    height: 220px;
+    background-image: url(./assets/flower-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    position: relative;
+    top: 240px;
+    left: 100px;
+}
+
+
+.flower3 p {
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+}
+
+.flower3-name {
+    position: relative;
+    top: 160px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.flower3-price {
+    font-weight: 800;
+    font-size: 19.4286px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.flower3-like {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+
+.flower3-korzina {
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+}
+
+.flowers {
+    display: flex;
+}
+
+.main-flower {
+    position: absolute;
+    width: 550px;
+    top: 10px;
+    right: 0px;
+}
+
+.flowers-paragraf {
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    font-weight: 400;
+    font-size: px;
+    line-height: 32px;
+
+    color: #474A57;
+}
+ 

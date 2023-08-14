@@ -1,0 +1,64 @@
+.features-section {
+    // background-color: rgb(250, 177, 177);
+    padding-top: 90px;
+
+    .features-section-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 74px;
+
+        h3 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 61px;
+            color: $darkColor;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;  
+            color: $greyColor;
+        }
+        a {
+            @include btn ();
+            text-decoration: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: $lightColor;
+        }
+    }
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-between;
+    .features-card {
+        width: 364px;
+        h5 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 30px;
+            color: $darkColor;
+            
+            margin: 30px 0 20px 0;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            color: $greyColor;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.section-5 {
+    padding: 59px 165px;
+    min-height: 603px;
+    background-color: #F4F5F7;
+    position: relative;
+
+    .section-5-text {
+        text-align: center;
+
+        h3 {
+            @include main-title (40px, $secondaryColor)
+        }
+
+        p {
+            @include paragraph-title (16px, $secondaryColor);
+            font-weight: 500;
+            margin-bottom: 48px;
+        }
+    }
+
+    .logos {
+
+        .logo-akbank {
+            position: absolute;
+            top: 208px;
+            left: 50%;
+            transform: translateX(-50%);
+            @include logos;
+            padding: 15px 19px;
+        }
+        .logo-aksansa {
+            position: absolute;
+            top: 328px;
+            left: 50%;
+            transform: translateX(-50%);
+            @include logos;
+            padding: 15px 19px;
+        }
+        .logo-tumunu {
+            @include logos;
+            padding: 22px 1.5px;
+            position: absolute;
+            top: 448px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .logo-istanbul {
+            @include logos;
+            padding: 18px 24px 17px;
+            position: absolute;
+            top: 268px;
+            left: 29%;
+        }
+        .logo-bookmyshow {
+            @include logos;
+            padding: 30px 23px 29px 24px;
+            position: absolute;
+            top: 388px;
+            left: 29%;
+        }
+        .logo-borusan {
+            @include logos;
+            padding: 15px 18px 14px;
+            position: absolute;
+            top: 328px;
+            left: 14.5%;
+        }
+        .logo-aktas {
+            @include logos;
+            padding: 19px 26px 18px;
+            position: absolute;
+            top: 268px;
+            right: 29%;
+        }
+        .logo-ola {
+            @include logos;
+            padding: 31px 36px;
+            position: absolute;
+            top: 388px;
+            right: 29%;
+        }
+        .logo-amazon {
+            @include logos;
+            padding: 32px 33px;
+            position: absolute;
+            top: 328px;
+            right: 14.5%;
+        }
+    }
+}

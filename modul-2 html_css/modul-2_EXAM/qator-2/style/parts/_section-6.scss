@@ -1,0 +1,28 @@
+.section-6 {
+    padding: 100px 398px 300px 398px;
+    position: relative;
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    h3 {
+        text-align: center;
+        @include main-title (40px, $secondaryColor)
+    }
+
+    p {
+        @include paragraph-title (16px, $secondaryColor);
+        font-weight: 500;
+    }
+
+    a {
+        @include button (8px);
+        padding: 25px 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 30px;
+    }
+}
